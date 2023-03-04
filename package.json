@@ -1,0 +1,24 @@
+{
+  "name": "vitePressDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "@mdit-vue/shared": "^0.12.0",
+    "@types/node": "^18.14.6",
+    "flexsearch": "^0.7.31",
+    "markdown-it": "^13.0.1",
+    "vitepress": "^1.0.0-alpha.49",
+    "vitepress-plugin-search": "^1.0.4-alpha.19",
+    "vue": "^3.2.47"
+  },
+  "dependencies": {
+    "sass": "^1.58.3",
+    "vuepress-plugin-anchor-right": "^0.0.1-beta.7"
+  }
+}
